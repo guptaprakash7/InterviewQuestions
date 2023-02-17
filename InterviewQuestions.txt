@@ -177,6 +177,9 @@ console.log(person2.address.city)
 setTimeout(()=>console.log('2')}​​,3000);
 console.log('3');
 
+24. find vowels count in the string.
+25. find count of each letter in a string
+26. sort an array.
 
 
 //javascript Questions
@@ -197,12 +200,12 @@ console.log('3');
 15. data tpye
 16. constructor
 17. hoisting
-
+18. shift and unshift
 
 //html and css
 1. difference between display and visibility in css.
 2. which property is use to center a text in css.
-
+3. id and class in css
 
 //react js
 1. library for sorting and paging in grid in react. - ant grid.
@@ -306,6 +309,7 @@ console.log('3');
 18. how routing works in asp.net core
 19. parameters require for file upload
 20. how to enable session in .net core
+21. remove configure and configureservice
 
 
 //C# and oops
@@ -351,6 +355,7 @@ readonly - can declare only and assign only by the default constructor and value
 32. what is digit separaters.
 33. if return type different then it is method overloading?
 34. how to pass input parameter as a method
+35. boxing and unboxing
 
 
 //mvc
@@ -389,6 +394,9 @@ readonly - can declare only and assign only by the default constructor and value
 15. httpresponsemessage and ihttpactionresult.
 16. httppost and httpget can both apply on a method
 17. how to return json from web api
+18. restful, soap, and web api
+19. log time and what request come to the api and what response sends back
+20. Handle multiple request suppose we have posting 20 users and click 10 times in postman then how to handle it.
 
 //Entity framework and linq
 1. how to update table name in entityframework.
