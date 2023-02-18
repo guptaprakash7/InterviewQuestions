@@ -204,6 +204,7 @@ console.log('3');
 
 28. reverse the string - I Love programming 
 
+29. Remove the duplicate from array and get the sum of the odd numbers.
 
 //javascript Questions
 1. call and apply in js
@@ -277,6 +278,10 @@ console.log('3');
 42. context API
 43. react lifecycle
 44. context api and redux difference.
+45. how refresh token works 
+46. how interceptor works 
+47. ways to apply css in 
+48. how to override the default css of material ui component
 
 //sql server
 1. Can we use functions in stored procedure.
@@ -338,6 +343,7 @@ console.log('3');
 20. how to enable session in .net core
 21. remove configure and configureservice
 22. what is webhostbuilder.
+23. how caching apply in .net core app.
 
 //C# and oops
 1. static class.
