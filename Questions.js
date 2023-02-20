@@ -58,4 +58,8 @@ const inverseLeftTriangle = () => {
   console.log(result);
 };
 
-inverseLeftTriangle();
+//inverseLeftTriangle();
+
+var a = 5;
+let a = 6;
+console.log(a);
