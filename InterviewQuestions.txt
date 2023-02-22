@@ -245,7 +245,14 @@ obj.print();
 let a = 6;
 console.log(a);
 
-36. 
+36. const details = {"gender":"female","name":{"title":"Miss","first":"Nicoline","last":"Christiansen"},"location":{"street":{"number":3663,"name":"Hybenvænget"}}}
+
+  simplify this
+   result - const {gender, location:{street:{number, name}}, name:{title, first, last}} = details
+
+37. const asd = [1,2,3, [4,5,6, [7,8,9]]]
+  result - const [ a, b, c, [x,y,z,[w, e, r]]] = asd
+
 
 
 //javascript Questions
