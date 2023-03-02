@@ -253,6 +253,60 @@ console.log(a);
 37. const asd = [1,2,3, [4,5,6, [7,8,9]]]
   result - const [ a, b, c, [x,y,z,[w, e, r]]] = asd
 
+38.            
+public void RemoveVowel()
+{
+   string str = "Hello World";
+
+   for(int i=0; i < str.Length; i++)
+{
+   if(str[i].indexOf("a") > -1 ||
+      str[i].indexOf("e") > -1||
+      str[i].indexOf("i") > -1 ||
+      str[i].indexOf("o") > -1 ||
+      str[i].indexOf("u") > -1)
+{
+  str = str[i].replaceAT(str[i].indexOf("a"), "");
+str = str[i].replaceAT(str[i].indexOf("e"), "");
+str = str[i].replaceAT(str[i].indexOf("i"), "");
+str = str[i].replaceAT(str[i].indexOf("o"), "");
+str = str[i].replaceAT(str[i].indexOf("u"), "");
+}
+}
+}
+
+39. 
+//print the "abcdefghijk" like this "abdcefhgijk"
+
+let str = "abcdefghijk";
+let outStr = "";
+let canSkip = false;
+let firstBlock = false;
+for (let i = 0; i < str.length; i++) {
+  if (i % 2 !== 0 || i == 0) {
+    if (canSkip) {
+      outStr += str[i + 1];
+      canSkip = false;
+      firstBlock = true;
+      continue;
+    }
+    outStr += str[i];
+  } else {
+    if (firstBlock) {
+      firstBlock = false;
+      continue;
+    }
+    outStr += str[i + 1] ? str[i + 1] : str[i];
+    if (str[i + 1]) {
+      outStr += str[i];
+    }
+    canSkip = true;
+  }
+}
+
+console.log(outStr);
+
+
 
 
 //javascript Questions
@@ -333,6 +387,11 @@ console.log(a);
 48. how to override the default css of material ui component
 49. private and protected route
 50. run api request using the redux.
+51. You have json which have person array and have firstname and last name 
+    show that data in tabular format in react.
+52. you have employee list dropdown - click on that show the employee data.
+53. currency coverter 
+54. sum of two number and button disabled till value fill in the fields
 
 
 //sql server
@@ -397,6 +456,11 @@ console.log(a);
 22. what is webhostbuilder.
 23. how caching apply in .net core app.
 24. ways to add the routing in application.
+25. when to use singelton and scoped 
+26. can abstract class use in dependency injection.
+27. what all middleware require in spa.
+
+
 
 //C# and oops
 1. static class.
